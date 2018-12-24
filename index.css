@@ -7,3 +7,11 @@ h1 {
 	background: rgb(197, 178, 178);
 	text-align: center;
 }
+
+.header {
+	border-radius: 0px;
+	background: rgb(197, 178, 178);
+	background-size: 100px 50px;
+	background-position: 100px;
+	text-align: center;
+}
