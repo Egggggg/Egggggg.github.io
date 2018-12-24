@@ -1,11 +1,11 @@
-body {
-	background-color: lightslategrey;
-}
-
 .header {
 	border-radius: 0px;
 	background: rgb(197, 178, 178);
 	background-size: 2px 500px;
 	background-position: 10px;
 	text-align: center;
+}
+
+body {
+	background-color: lightslategrey;
 }
