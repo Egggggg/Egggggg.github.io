@@ -5,7 +5,7 @@ body {
 .header {
 	border-radius: 0px;
 	background: rgb(197, 178, 178);
-	background-size: 100px 50px;
-	background-position: 100px;
+	background-size: 2px 500px;
+	background-position: 10px;
 	text-align: center;
 }
