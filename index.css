@@ -9,6 +9,18 @@
 	margin: auto;
 }
 
+.outer {
+	/*format container class*/
+	width: 1px;
+	margin: auto;
+	overflow: visible;
+}
+
+.inner {
+	margin-left: 20px;
+	width: auto;
+}
+
 body {
 	background-color: lightslategrey;
 	color: rgb(255, 255, 0);
