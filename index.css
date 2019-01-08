@@ -8,7 +8,7 @@
 	left: 300px;
 }
 
-body {
+body:not(.header) {
 	background-color: lightslategrey;
 	color: #FFFF00;
 }
