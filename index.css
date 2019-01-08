@@ -4,10 +4,11 @@
 	text-align: center;
 	width: 400px;
 	height: 50px;
-	position: fixed;
+	position: relative;
 	left: 300px;
 }
 
 body {
 	background-color: lightslategrey;
+	color: brown;
 }
