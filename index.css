@@ -14,14 +14,16 @@
 	width: 1px;
 	margin: auto;
 	overflow: visible;
+	background: red;
 }
 
 .inner {
 	margin-left: 20px;
 	width: 100px;
+	background: yellow;
 }
 
 body {
 	background-color: lightslategrey;
-	color: rgb(255, 255, 0);
+	color: orange;
 }
