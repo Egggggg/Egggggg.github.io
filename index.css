@@ -1,6 +1,7 @@
 .header {
 	border-radius: 0px;
 	background: rgb(197, 178, 178);
+	color: rgb(20, 15, 15);
 	text-align: center;
 	width: 400px;
 	height: 50px;
@@ -8,7 +9,7 @@
 	left: 300px;
 }
 
-body:not(.header) {
+body {
 	background-color: lightslategrey;
-	color: #FFFF00;
+	color: rgb(255, 255, 0);
 }
