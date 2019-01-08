@@ -12,15 +12,10 @@
 .outer {
 	/*format container class*/
 	width: 1px;
-	margin: auto;
+	float: left;
+	margin-left: 100px;
 	overflow: visible;
 	background: red;
-}
-
-.inner {
-	margin-left: -200px;
-	width: 100px;
-	background: yellow;
 }
 
 body {
