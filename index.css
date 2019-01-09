@@ -1,13 +1,13 @@
 .header {
 	background: #8AACC1;
-	color: #2B4570;
+	color: #F9F8F7;/**/
 	margin: auto;
 	margin-left: 160px;
 	text-align: center;
 }
 
 .sidebar {
-	background-color: #2B4570;
+	background-color: #F9F8F7;/**/
 	height: 100%;
 	left: 0;
 	overflow-x: hidden; /*disable horizontal scroll*/
@@ -19,21 +19,21 @@
 }
 
 .sidebar a {
-	color: #F9F8F7;
+	color: #2B4570;/**/
 	display: block;
 	font-size: 25px;
-	padding: 6px 8px 6px 16px;
+	padding: 6px 8px 6px 8px;
 	text-decoration: none;
 }
 
 .sidebar a:hover {
-	background-color: #808394;
-	color: #2B4670;
+	background-color: #848984;/**/
+	color: #F9F8F7;/**/
 }
 
 .sidebar a.active {
 	background-color: #8AACC1;
-	color: #2B4570;
+	color: #F9F8F7;/**/
 }
 
 @media screen and (max-height: 450px) {
@@ -49,6 +49,6 @@
 }
 
 body {
-	background-color: #F9F8F7;
-	color: #2B4570;
+	background-color: #2B4570;/**/
+	color: #F9F8F7;/**/
 }
