@@ -1,7 +1,7 @@
 .header {
 	border-radius: 0px;
-	background: rgb(197, 178, 178);
-	color: rgb(20, 15, 15);
+	background: #8AACC1;
+	color: #2B4570;
 	text-align: center;
 	width: 400px;
 	height: 50px;
@@ -9,16 +9,38 @@
 	margin: auto;
 }
 
-.outer {
+.sidebar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 60px;
+	background-color: #2B4570;
+}
+
+.sidebar li a {
+	display: block;
+	color: #F9F8F7;
+}
+
+.sidebar li a:hover {
+	background-color: #808394;
+	color: #2B4670;
+}
+
+.sidebar li a.active {
+	background-color: #8AACC1;
+	color: #2B4570;
+}
+
+.normal {
 	/*format container class*/
 	width: 1px;
 	float: left;
 	margin-left: 200px;
 	overflow: visible;
-	background: red;
 }
 
 body {
-	background-color: lightslategrey;
-	color: orange;
+	background-color: #F9F8F7;
+	color: #2B4570;
 }
