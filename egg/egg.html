@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Eggs</title>
+		<link rel="stylesheet" type="text/css" href="../css/main/sidebar.css">
+		<link rel="stylesheet" type="text/css" href="../css/main/main.css">
+		<link rel="shortcut icon" type="image/png" href="../img/favicon.png">
+	</head>
+
+	<body>
+		
+		<div class="sidebar">
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a class="active" href="egg.html">Egg</a></li>
+			</ul>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<script>
+			$(document).ready(function() {
+				var egg = document.getElementById("eggs");
+				while ($(window).height() > $("#eggs").height()) {
+					egg.innerHTML += "egg ".repeat(1000);
+				}
+				$(window).scroll(function() {
+					if ($(document).scrollTop() + $(window).height() + 10 > $("#eggs").height()) {
+						egg.innerHTML += "egg ".repeat(1000);
+					}
+				});
+			});
+		</script>
+
+		<div class="egg">
+			<p id="eggs">
+				egg 
+			</p>
+		</div>
+	</body>
+</html>

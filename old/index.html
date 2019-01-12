@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta http-equiv="refresh" content="0; URL='index.html'" />
 		<link rel="stylesheet" type="text/css" href="index.css">
+		<script src="sidebar.js"></script>
 	</head>
 
 	<body>
@@ -12,14 +12,13 @@
 
 		<div class="sidebar">
 			<ul>
-				<li><a class="active" href="#home">Home</a></li>
-				<li><a href="#commands">Commands</a></li>
+				<li><a class="active" id="sbHome" href="index.html" onclick="setActive('sbHome')">Home</a></li>
+				<li><a id="sbCommands" href="commands.html" onclick="setActive('sbCommands')">Commands</a></li>
 			</ul>
 		</div>
 
 		<div class="main">
-			<p>wwwwww</p>
-			<img src="ex-selfrole.jpg" alt="Selfrole example", height="507", width="731">
+			<p>wwww</p>
 		</div>
 	</body>
 </html>

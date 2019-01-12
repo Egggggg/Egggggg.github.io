@@ -1,0 +1,33 @@
+:root {
+	--main-bg-color: #AFAFB6;
+	--sidebar-bg-color: #2B4570;
+
+	--main-text-color: #2B4570;
+	--sidebar-text-color: #AFAFB6;
+}
+
+.main {
+	float: left;
+	font-size: 17px;
+	margin-left: 160px;
+	overflow: visible;
+}
+
+.main h1 {
+	text-align: center;
+}
+
+.main p {
+	margin-left: 500px;
+	margin-right: 500px;
+	text-align: center;
+}
+
+.egg p {
+	margin-left: 160px;
+}
+
+body {
+	background-color: var(--main-bg-color);
+	color: var(--main-text-color);
+}

@@ -1,29 +1,38 @@
 .header {
 	background: #8AACC1;
-	color: #F9F8F7;
+	color: #2B4570;
 	margin: auto;
-	margin-left: 160px;
+	margin-right: -8px;
+	margin-top: -21px;
 	text-align: center;
+	width: 100%;
+	z-index: 2;
 }
 
 .sidebar {
 	background-color: #2B3560;
 	height: 100%;
 	left: 0;
-	overflow-x: hidden; /*disable horizontal scroll*/
+	overflow: hidden;
 	padding-top: 20px;
+	padding-right: 0px;
 	position: fixed;
 	top: 0;
 	width: 160px;
-	z-index: 1; /*stay on top*/
+	z-index: 1;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	padding: 10px 0px 6px 0px;
 }
 
 .sidebar a {
-	color: #F9F8F7;
+	color: #afafb6;
 	display: block;
 	font-size: 25px;
-	padding: 6px 8px 6px 0px;
 	text-decoration: none;
+	text-align: center;
 }
 
 .sidebar a:hover {
@@ -37,8 +46,8 @@
 }
 
 @media screen and (max-height: 450px) {
-	.sidenav {padding-top: 15px;}
-	.sidenav a {font-size: 18px;}
+	.sidebar {padding-top: 15px;}
+	.sidebar a {font-size: 18px;}
 }
 
 .main {
@@ -49,5 +58,5 @@
 
 body {
 	background-color: #2B4570;
-	color: #F9F8F7;
+	color: #afafb6;
 }
