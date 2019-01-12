@@ -9,18 +9,10 @@
 .main {
 	float: left;
 	font-size: 17px;
-	margin-left: 160px;
-	overflow: visible;
-}
-
-.main h1 {
-	text-align: center;
-}
-
-.main p {
-	margin-left: 500px;
+	margin-left: 660px;
 	margin-right: 500px;
 	text-align: center;
+	overflow: visible;
 }
 
 .egg p {
