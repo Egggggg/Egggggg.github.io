@@ -30,10 +30,30 @@
 		<script>
 			$(document).ready(function() {
 				var egg = document.getElementById("eggs");
+				var special = Math.floor(Math.random() * 10001);
+
 				while ($(window).height() > $("#eggs").height()) {
+					special = Math.floor(Math.random() * 10001);
+
+					if (special == 1) {
+						var a = document.createElement("a");
+						a.setAttribute("href", "secret.html");
+						a.setAttribute("class", "secret");
+						a.innerHTML = "egg ";
+						egg.append(a)
+					}
 					egg.innerHTML += "egg ".repeat(1000);
 				}
 				$(window).scroll(function() {
+					special = Math.floor(Math.random() * 100);
+					
+					if (special == 1) {
+						var a = document.createElement("a");
+						a.setAttribute("href", "secret.html");
+						a.setAttribute("class", "secret");
+						a.innerHTML = "egg ";
+						egg.append(a)
+					}
 					if ($(document).scrollTop() + $(window).height() + 10 > $("#eggs").height()) {
 						egg.innerHTML += "egg ".repeat(1000);
 					}

@@ -19,6 +19,11 @@ main {
 	margin-left: 160px;
 }
 
+.secret {
+	text-decoration: none;
+	color: red;
+}
+
 body {
 	background-color: var(--main-bg-color);
 	color: var(--main-text-color);
