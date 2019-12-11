@@ -14,15 +14,11 @@
 				<li><a href="index.html">Home</a></li>
 				<li><a class="active">Egg</a></li>
 			</ul>
-			
 			<div id="heretics">
-				<h2>Heretics</h2>
-	
-				<p>Some people don't follow the rules set by Big Egg and they go to hell.</p>
-				<ul>
-					<li><img src="img/HV.png">HVLO</li>
-					<li><img src="img/skag.png"><br>Skag</li>
-				</ul>
+				<h1>ALERT</h1>
+				<p>
+					THERE IS HALF AN EGG MISSING SOMEWHERE
+				</p>
 			</div>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -31,16 +27,23 @@
 			$(document).ready(function() {
 				var egg = document.getElementById("eggs");
 				var special = Math.floor(Math.random() * 10001);
+				var half = Math.floor(Math.random() * 1000001);
 
 				while ($(window).height() > $("#eggs").height()) {
 					special = Math.floor(Math.random() * 10001);
+					half = Math.floor(Math.random() * 10000001);
 
 					if (special == 1) {
 						var a = document.createElement("a");
 						a.setAttribute("href", "secret.html");
 						a.setAttribute("class", "secret");
 						a.innerHTML = "egg ";
-						egg.append(a)
+						egg.append(a);
+					}
+					if (half == 1) {
+						var a = document.createElement("p");
+						a.innerHTML = "eg  ";
+						egg.append(a);
 					}
 					egg.innerHTML += "egg ".repeat(1000);
 				}
